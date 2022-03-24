@@ -1,0 +1,25 @@
+@font-face {
+  font-family: notoSansRegular;
+  src: url('../res/Noto_Sans/NotoSans-Regular.ttf')
+}
+
+.header-wrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-icon {
+  width: 100px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.horizontal-center {
+  display: inline-block;
+}

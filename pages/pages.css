@@ -1,11 +1,11 @@
 @font-face {
   font-family: notoSansRegular;
-  src: url('../../res/Noto_Sans/NotoSans-Regular.ttf')
+  src: url('../../res/pages/Noto_Sans/NotoSans-Regular.ttf')
 }
 
 @font-face {
   font-family: notoSansBold;
-  src: url('../../res/Noto_Sans/NotoSans-Bold.ttf')
+  src: url('../../res/pages/Noto_Sans/NotoSans-Bold.ttf')
 }
 
 * {
@@ -39,10 +39,6 @@ img.float {
   }
 }
 
-.level2 {
-    list-style-type: lower-alpha;
-}
-
 .note {
   background-color: lightgrey;
   padding-left: 20px;
@@ -53,14 +49,18 @@ img.float {
   font-size: 14px;
 }
 
-.note > ul {
-  margin: 0px;
-  padding: 0px;
-  font-size:14px;
+.note * {
+  font-size: 14px;
 }
 
-.note > ul > li {
-  font-size: 14px;
+.note>ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.note>ul>ul,.note>ul>ol {
+  margin: 0px;
+  padding-left: 40px;
 }
 
 .right {
